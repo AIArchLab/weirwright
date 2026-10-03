@@ -1,0 +1,20 @@
+{
+  "as_of": "2026-10-03",
+  "expected": {
+    "CHG-001": "PASS",
+    "CHG-002": "FAIL",
+    "CHG-003": "FAIL",
+    "CHG-004": "FAIL",
+    "CHG-005": "PASS",
+    "CHG-006": "FAIL",
+    "CHG-007": "FAIL",
+    "CHG-008": "FAIL",
+    "CHG-009": "FAIL",
+    "CHG-010": "FAIL",
+    "CHG-011": "FAIL",
+    "CHG-012": "EXCEPTION",
+    "CHG-013": "FAIL",
+    "CHG-014": "FAIL",
+    "CHG-015": "FAIL"
+  }
+}
