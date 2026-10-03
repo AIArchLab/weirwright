@@ -16,6 +16,10 @@ Engineering leads and architects who own a change policy, and risk or audit read
 
 Reads change records and a small policy file. Applies six checks (protected branch, independent review, checks on the exact merged commit, secret scan, ticket link, deploy verification with rollback plan). Reports PASS, FAIL or EXCEPTION (a recorded, approved emergency bypass) for each change, with the evidence behind every result. An EXCEPTION still lists every failed rule.
 
+![Weirwright v0.3.1 evaluation flow](docs/weirwright-flow-v0.3.1.png)
+
+[Editable SVG source](docs/weirwright-flow-v0.3.1.svg)
+
 ## Run it in 5 minutes
 
 Requires Python 3.10 or later (tested on 3.10). No other packages.
