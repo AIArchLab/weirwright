@@ -1,0 +1,534 @@
+[
+  {
+    "id": "CHG-001",
+    "author": "kai",
+    "target_branch": "main",
+    "via_pull_request": true,
+    "files": [
+      "app/service.py"
+    ],
+    "approvals": [
+      "mia"
+    ],
+    "merged_sha": "sha001",
+    "checks": [
+      {
+        "name": "unit-tests",
+        "status": "passed",
+        "sha": "sha001"
+      },
+      {
+        "name": "static-analysis",
+        "status": "passed",
+        "sha": "sha001"
+      }
+    ],
+    "secret_scan": {
+      "status": "clean",
+      "sha": "sha001"
+    },
+    "ticket_id": "TKT-101",
+    "deploy": {
+      "sha": "sha001",
+      "health_check": "passed"
+    },
+    "rollback_plan": "redeploy previous tag"
+  },
+  {
+    "id": "CHG-002",
+    "author": "kai",
+    "target_branch": "main",
+    "via_pull_request": false,
+    "files": [
+      "app/service.py"
+    ],
+    "approvals": [
+      "mia"
+    ],
+    "merged_sha": "sha002",
+    "checks": [
+      {
+        "name": "unit-tests",
+        "status": "passed",
+        "sha": "sha002"
+      },
+      {
+        "name": "static-analysis",
+        "status": "passed",
+        "sha": "sha002"
+      }
+    ],
+    "secret_scan": {
+      "status": "clean",
+      "sha": "sha002"
+    },
+    "ticket_id": "TKT-102",
+    "deploy": {
+      "sha": "sha002",
+      "health_check": "passed"
+    },
+    "rollback_plan": "redeploy previous tag"
+  },
+  {
+    "id": "CHG-003",
+    "author": "kai",
+    "target_branch": "main",
+    "via_pull_request": true,
+    "files": [
+      "app/service.py"
+    ],
+    "approvals": [
+      "kai"
+    ],
+    "merged_sha": "sha003",
+    "checks": [
+      {
+        "name": "unit-tests",
+        "status": "passed",
+        "sha": "sha003"
+      },
+      {
+        "name": "static-analysis",
+        "status": "passed",
+        "sha": "sha003"
+      }
+    ],
+    "secret_scan": {
+      "status": "clean",
+      "sha": "sha003"
+    },
+    "ticket_id": "TKT-103",
+    "deploy": {
+      "sha": "sha003",
+      "health_check": "passed"
+    },
+    "rollback_plan": "redeploy previous tag"
+  },
+  {
+    "id": "CHG-004",
+    "author": "kai",
+    "target_branch": "main",
+    "via_pull_request": true,
+    "files": [
+      "infra/network.tf"
+    ],
+    "approvals": [
+      "mia"
+    ],
+    "merged_sha": "sha004",
+    "checks": [
+      {
+        "name": "unit-tests",
+        "status": "passed",
+        "sha": "sha004"
+      },
+      {
+        "name": "static-analysis",
+        "status": "passed",
+        "sha": "sha004"
+      }
+    ],
+    "secret_scan": {
+      "status": "clean",
+      "sha": "sha004"
+    },
+    "ticket_id": "TKT-104",
+    "deploy": {
+      "sha": "sha004",
+      "health_check": "passed"
+    },
+    "rollback_plan": "redeploy previous tag"
+  },
+  {
+    "id": "CHG-005",
+    "author": "kai",
+    "target_branch": "main",
+    "via_pull_request": true,
+    "files": [
+      "infra/network.tf"
+    ],
+    "approvals": [
+      "lin"
+    ],
+    "merged_sha": "sha005",
+    "checks": [
+      {
+        "name": "unit-tests",
+        "status": "passed",
+        "sha": "sha005"
+      },
+      {
+        "name": "static-analysis",
+        "status": "passed",
+        "sha": "sha005"
+      }
+    ],
+    "secret_scan": {
+      "status": "clean",
+      "sha": "sha005"
+    },
+    "ticket_id": "TKT-105",
+    "deploy": {
+      "sha": "sha005",
+      "health_check": "passed"
+    },
+    "rollback_plan": "redeploy previous tag"
+  },
+  {
+    "id": "CHG-006",
+    "author": "kai",
+    "target_branch": "main",
+    "via_pull_request": true,
+    "files": [
+      "app/service.py"
+    ],
+    "approvals": [
+      "mia"
+    ],
+    "merged_sha": "sha006",
+    "checks": [
+      {
+        "name": "unit-tests",
+        "status": "passed",
+        "sha": "old000"
+      },
+      {
+        "name": "static-analysis",
+        "status": "passed",
+        "sha": "sha006"
+      }
+    ],
+    "secret_scan": {
+      "status": "clean",
+      "sha": "sha006"
+    },
+    "ticket_id": "TKT-106",
+    "deploy": {
+      "sha": "sha006",
+      "health_check": "passed"
+    },
+    "rollback_plan": "redeploy previous tag"
+  },
+  {
+    "id": "CHG-007",
+    "author": "kai",
+    "target_branch": "main",
+    "via_pull_request": true,
+    "files": [
+      "app/service.py"
+    ],
+    "approvals": [
+      "mia"
+    ],
+    "merged_sha": "sha007",
+    "checks": [
+      {
+        "name": "unit-tests",
+        "status": "passed",
+        "sha": "sha007"
+      }
+    ],
+    "secret_scan": {
+      "status": "clean",
+      "sha": "sha007"
+    },
+    "ticket_id": "TKT-107",
+    "deploy": {
+      "sha": "sha007",
+      "health_check": "passed"
+    },
+    "rollback_plan": "redeploy previous tag"
+  },
+  {
+    "id": "CHG-008",
+    "author": "kai",
+    "target_branch": "main",
+    "via_pull_request": true,
+    "files": [
+      "app/service.py"
+    ],
+    "approvals": [
+      "mia"
+    ],
+    "merged_sha": "sha008",
+    "checks": [
+      {
+        "name": "unit-tests",
+        "status": "passed",
+        "sha": "sha008"
+      },
+      {
+        "name": "static-analysis",
+        "status": "passed",
+        "sha": "sha008"
+      }
+    ],
+    "secret_scan": {
+      "status": "found",
+      "sha": "sha008"
+    },
+    "ticket_id": "TKT-108",
+    "deploy": {
+      "sha": "sha008",
+      "health_check": "passed"
+    },
+    "rollback_plan": "redeploy previous tag"
+  },
+  {
+    "id": "CHG-009",
+    "author": "kai",
+    "target_branch": "main",
+    "via_pull_request": true,
+    "files": [
+      "app/service.py"
+    ],
+    "approvals": [
+      "mia"
+    ],
+    "merged_sha": "sha009",
+    "checks": [
+      {
+        "name": "unit-tests",
+        "status": "passed",
+        "sha": "sha009"
+      },
+      {
+        "name": "static-analysis",
+        "status": "passed",
+        "sha": "sha009"
+      }
+    ],
+    "secret_scan": {
+      "status": "clean",
+      "sha": "sha009"
+    },
+    "ticket_id": "",
+    "deploy": {
+      "sha": "sha009",
+      "health_check": "passed"
+    },
+    "rollback_plan": "redeploy previous tag"
+  },
+  {
+    "id": "CHG-010",
+    "author": "kai",
+    "target_branch": "main",
+    "via_pull_request": true,
+    "files": [
+      "app/service.py"
+    ],
+    "approvals": [
+      "mia"
+    ],
+    "merged_sha": "sha010",
+    "checks": [
+      {
+        "name": "unit-tests",
+        "status": "passed",
+        "sha": "sha010"
+      },
+      {
+        "name": "static-analysis",
+        "status": "passed",
+        "sha": "sha010"
+      }
+    ],
+    "secret_scan": {
+      "status": "clean",
+      "sha": "sha010"
+    },
+    "ticket_id": "TKT-110",
+    "deploy": {
+      "sha": "sha010",
+      "health_check": "failed"
+    },
+    "rollback_plan": "redeploy previous tag"
+  },
+  {
+    "id": "CHG-011",
+    "author": "kai",
+    "target_branch": "main",
+    "via_pull_request": true,
+    "files": [
+      "app/service.py"
+    ],
+    "approvals": [
+      "mia"
+    ],
+    "merged_sha": "sha011",
+    "checks": [
+      {
+        "name": "unit-tests",
+        "status": "passed",
+        "sha": "sha011"
+      },
+      {
+        "name": "static-analysis",
+        "status": "passed",
+        "sha": "sha011"
+      }
+    ],
+    "secret_scan": {
+      "status": "clean",
+      "sha": "sha011"
+    },
+    "ticket_id": "TKT-111",
+    "deploy": {
+      "sha": "sha011",
+      "health_check": "passed"
+    },
+    "rollback_plan": ""
+  },
+  {
+    "id": "CHG-012",
+    "author": "kai",
+    "target_branch": "main",
+    "via_pull_request": true,
+    "files": [
+      "app/service.py"
+    ],
+    "approvals": [],
+    "merged_sha": "sha012",
+    "checks": [
+      {
+        "name": "unit-tests",
+        "status": "passed",
+        "sha": "sha012"
+      },
+      {
+        "name": "static-analysis",
+        "status": "passed",
+        "sha": "sha012"
+      }
+    ],
+    "secret_scan": {
+      "status": "clean",
+      "sha": "sha012"
+    },
+    "ticket_id": "",
+    "deploy": {
+      "sha": "sha012",
+      "health_check": "passed"
+    },
+    "rollback_plan": "redeploy previous tag",
+    "bypass": {
+      "approver": "lin",
+      "reason": "production outage",
+      "post_review_due": "2026-10-10",
+      "post_review_done": false
+    }
+  },
+  {
+    "id": "CHG-013",
+    "author": "kai",
+    "target_branch": "main",
+    "via_pull_request": true,
+    "files": [
+      "app/service.py"
+    ],
+    "approvals": [],
+    "merged_sha": "sha013",
+    "checks": [
+      {
+        "name": "unit-tests",
+        "status": "passed",
+        "sha": "sha013"
+      },
+      {
+        "name": "static-analysis",
+        "status": "passed",
+        "sha": "sha013"
+      }
+    ],
+    "secret_scan": {
+      "status": "clean",
+      "sha": "sha013"
+    },
+    "ticket_id": "",
+    "deploy": {
+      "sha": "sha013",
+      "health_check": "passed"
+    },
+    "rollback_plan": "redeploy previous tag",
+    "bypass": {
+      "approver": "lin",
+      "reason": "production outage",
+      "post_review_due": "2026-09-20",
+      "post_review_done": false
+    }
+  },
+  {
+    "id": "CHG-014",
+    "author": "kai",
+    "target_branch": "main",
+    "via_pull_request": true,
+    "files": [
+      "app/service.py"
+    ],
+    "approvals": [],
+    "merged_sha": "sha014",
+    "checks": [
+      {
+        "name": "unit-tests",
+        "status": "passed",
+        "sha": "sha014"
+      },
+      {
+        "name": "static-analysis",
+        "status": "passed",
+        "sha": "sha014"
+      }
+    ],
+    "secret_scan": {
+      "status": "clean",
+      "sha": "sha014"
+    },
+    "ticket_id": "",
+    "deploy": {
+      "sha": "sha014",
+      "health_check": "passed"
+    },
+    "rollback_plan": "redeploy previous tag",
+    "bypass": {
+      "approver": "kai",
+      "reason": "production outage",
+      "post_review_due": "2026-10-10",
+      "post_review_done": false
+    }
+  },
+  {
+    "id": "CHG-015",
+    "author": "kai",
+    "target_branch": "main",
+    "via_pull_request": true,
+    "files": [
+      "app/service.py"
+    ],
+    "approvals": [
+      "mia"
+    ],
+    "merged_sha": "sha015",
+    "checks": [
+      {
+        "name": "unit-tests",
+        "status": "passed",
+        "sha": "sha015"
+      },
+      {
+        "name": "static-analysis",
+        "status": "passed",
+        "sha": "sha015"
+      }
+    ],
+    "secret_scan": {
+      "status": "clean",
+      "sha": "sha015"
+    },
+    "ticket_id": "TKT-115",
+    "deploy": {
+      "sha": "other99",
+      "health_check": "passed"
+    },
+    "rollback_plan": "redeploy previous tag"
+  }
+]
