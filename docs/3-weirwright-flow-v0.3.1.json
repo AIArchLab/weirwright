@@ -1,0 +1,28 @@
+{
+  "title": "Weirwright change-control evaluation flow",
+  "publisher": "AIArchLab",
+  "implementation": "v0.3.1",
+  "checked_at": "2026-10-03",
+  "source": "https://raw.githubusercontent.com/AIArchLab/weirwright/main/weirwright/rules.py",
+  "inputs": ["change records", "policy", "report date"],
+  "checks": {
+    "R1": "Pull request required when targeting the protected branch",
+    "R2": "Non-author approval; code-owner approval for sensitive paths",
+    "R3": "All required checks passed on the exact merged commit",
+    "R4": "Clean secret scan on the exact merged commit",
+    "R5": "Non-empty ticket ID recorded",
+    "R6": "Merged commit deployed, health check passed, rollback plan present"
+  },
+  "bypass_validity": ["approver present and not the author", "reason present", "post-review due date present", "post-review completed or due date not before the report date"],
+  "verdicts": [
+    {"bypass": "absent", "all_checks_pass": true, "verdict": "PASS"},
+    {"bypass": "absent", "all_checks_pass": false, "verdict": "FAIL"},
+    {"bypass": "valid", "all_checks_pass": true, "verdict": "PASS"},
+    {"bypass": "valid", "all_checks_pass": false, "verdict": "EXCEPTION"},
+    {"bypass": "invalid", "all_checks_pass": "either", "verdict": "FAIL"}
+  ],
+  "outputs": ["verdict", "all six rule results with evidence", "bypass note"],
+  "exit_codes": {"0": "no FAIL", "1": "any FAIL", "2": "invalid input"},
+  "limits": ["reads files only", "PASS is not a claim that the change is safe"],
+  "spec_conflict": "SPEC section 5 says bypass is never PASS; rules.py returns PASS when all rules pass and bypass is valid. Diagram follows rules.py."
+}

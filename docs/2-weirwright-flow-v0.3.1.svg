@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1770" viewBox="0 0 1200 1770"><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 1 L8 5 L0 9" fill="none" stroke="#585254" stroke-width="1.5"/></marker></defs><rect width="1200" height="1770" fill="#f4efec"/><rect x="28" y="28" width="1144" height="1714" rx="24" fill="white"/>
+<text x="72" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#585254" text-anchor="start">WEIRWRIGHT</text>
+<text x="72" y="145" font-family="Arial, sans-serif" font-size="44" font-weight="400" fill="#251f21" text-anchor="start">Evidence in, verdict out</text>
+<text x="72" y="188" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#585254" text-anchor="start">Change-control evaluation flow  /  Implementation v0.3.1</text>
+<rect x="72" y="228" width="336" height="124" rx="12" fill="#faf9f8" stroke="#eae9ea" stroke-width="2"/>
+<text x="92" y="261" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#251f21" text-anchor="start">Change records</text>
+<text x="92" y="295" font-family="Arial, sans-serif" font-size="19" font-weight="400" fill="#251f21" text-anchor="start">Per-change JSON evidence</text>
+<text x="92" y="324" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#585254" text-anchor="start">Repository, CI and deploy records</text>
+<rect x="432" y="228" width="336" height="124" rx="12" fill="#faf9f8" stroke="#eae9ea" stroke-width="2"/>
+<text x="452" y="261" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#251f21" text-anchor="start">Policy</text>
+<text x="452" y="295" font-family="Arial, sans-serif" font-size="19" font-weight="400" fill="#251f21" text-anchor="start">Protected branch, checks</text>
+<text x="452" y="324" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#585254" text-anchor="start">Sensitive paths and code owners</text>
+<rect x="792" y="228" width="336" height="124" rx="12" fill="#faf9f8" stroke="#eae9ea" stroke-width="2"/>
+<text x="812" y="261" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#251f21" text-anchor="start">Report date</text>
+<text x="812" y="295" font-family="Arial, sans-serif" font-size="19" font-weight="400" fill="#251f21" text-anchor="start">--as-of YYYY-MM-DD</text>
+<text x="812" y="324" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#585254" text-anchor="start">Used for post-review deadlines</text>
+<path d="M240 352 V375 H600 V400" fill="none" stroke="#585254" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M600 352 V400" fill="none" stroke="#585254" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M960 352 V375 H600" fill="none" stroke="#585254" stroke-width="2.5"/>
+<rect x="350" y="404" width="500" height="70" rx="12" fill="white" stroke="#eae9ea" stroke-width="2"/>
+<text x="600" y="447" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#251f21" text-anchor="middle">Validate required record fields</text>
+<path d="M850 440 H928" fill="none" stroke="#585254" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="936" y="404" width="192" height="70" rx="12" fill="#fff0f1" stroke="#fff0f1" stroke-width="2"/>
+<text x="1032" y="432" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#ed313e" text-anchor="middle">Invalid input</text>
+<text x="1032" y="457" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#585254" text-anchor="middle">Exit code 2</text>
+<path d="M600 474 V511" fill="none" stroke="#585254" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="72" y="516" width="1056" height="505" rx="12" fill="white" stroke="#eae9ea" stroke-width="2"/>
+<text x="100" y="556" font-family="Arial, sans-serif" font-size="27" font-weight="600" fill="#251f21" text-anchor="start">Evaluate all six checks</text>
+<text x="100" y="591" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#585254" text-anchor="start">Keep every rule result and its evidence. Do not stop at the first failure.</text>
+<rect x="100" y="609" width="53" height="34" rx="5" fill="#eaf3ef" stroke="#eaf3ef" stroke-width="2"/>
+<text x="126" y="633" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#426f63" text-anchor="middle">R1</text>
+<text x="175" y="631" font-family="Arial, sans-serif" font-size="22" font-weight="600" fill="#251f21" text-anchor="start">Protected branch</text>
+<text x="470" y="631" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#251f21" text-anchor="start">Pull request required when targeting the protected branch</text>
+<path d="M100 666 H1100" fill="none" stroke="#eae9ea" stroke-width="2.5"/>
+<rect x="100" y="671" width="53" height="34" rx="5" fill="#eaf3ef" stroke="#eaf3ef" stroke-width="2"/>
+<text x="126" y="695" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#426f63" text-anchor="middle">R2</text>
+<text x="175" y="693" font-family="Arial, sans-serif" font-size="22" font-weight="600" fill="#251f21" text-anchor="start">Independent review</text>
+<text x="470" y="693" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#251f21" text-anchor="start">Non-author approval; code-owner approval for sensitive paths</text>
+<path d="M100 728 H1100" fill="none" stroke="#eae9ea" stroke-width="2.5"/>
+<rect x="100" y="733" width="53" height="34" rx="5" fill="#eaf3ef" stroke="#eaf3ef" stroke-width="2"/>
+<text x="126" y="757" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#426f63" text-anchor="middle">R3</text>
+<text x="175" y="755" font-family="Arial, sans-serif" font-size="22" font-weight="600" fill="#251f21" text-anchor="start">Required CI checks</text>
+<text x="470" y="755" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#251f21" text-anchor="start">All required checks passed on the exact merged commit</text>
+<path d="M100 790 H1100" fill="none" stroke="#eae9ea" stroke-width="2.5"/>
+<rect x="100" y="795" width="53" height="34" rx="5" fill="#eaf3ef" stroke="#eaf3ef" stroke-width="2"/>
+<text x="126" y="819" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#426f63" text-anchor="middle">R4</text>
+<text x="175" y="817" font-family="Arial, sans-serif" font-size="22" font-weight="600" fill="#251f21" text-anchor="start">Secret scan</text>
+<text x="470" y="817" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#251f21" text-anchor="start">Clean scan on the exact merged commit</text>
+<path d="M100 852 H1100" fill="none" stroke="#eae9ea" stroke-width="2.5"/>
+<rect x="100" y="857" width="53" height="34" rx="5" fill="#eaf3ef" stroke="#eaf3ef" stroke-width="2"/>
+<text x="126" y="881" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#426f63" text-anchor="middle">R5</text>
+<text x="175" y="879" font-family="Arial, sans-serif" font-size="22" font-weight="600" fill="#251f21" text-anchor="start">Ticket link</text>
+<text x="470" y="879" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#251f21" text-anchor="start">A non-empty ticket ID is recorded</text>
+<path d="M100 914 H1100" fill="none" stroke="#eae9ea" stroke-width="2.5"/>
+<rect x="100" y="919" width="53" height="34" rx="5" fill="#eaf3ef" stroke="#eaf3ef" stroke-width="2"/>
+<text x="126" y="943" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#426f63" text-anchor="middle">R6</text>
+<text x="175" y="941" font-family="Arial, sans-serif" font-size="22" font-weight="600" fill="#251f21" text-anchor="start">Deploy verification</text>
+<text x="470" y="941" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#251f21" text-anchor="start">Merged commit deployed; health check passed; rollback plan exists</text>
+<path d="M600 1021 V1064" fill="none" stroke="#585254" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M600 1068 L856 1120 L600 1172 L344 1120 Z" fill="#faf9f8" stroke="#c0bebf" stroke-width="2"/>
+<text x="600" y="1126" font-family="Arial, sans-serif" font-size="23" font-weight="600" fill="#251f21" text-anchor="middle">Emergency bypass present?</text>
+<path d="M344 1120 H315 V1215" fill="none" stroke="#585254" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="310" y="1171" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#251f21" text-anchor="middle">No</text>
+<path d="M856 1120 H885 V1215" fill="none" stroke="#585254" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="890" y="1171" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#251f21" text-anchor="middle">Yes</text>
+<rect x="72" y="1220" width="480" height="222" rx="12" fill="white" stroke="#eae9ea" stroke-width="2"/>
+<text x="96" y="1257" font-family="Arial, sans-serif" font-size="25" font-weight="600" fill="#251f21" text-anchor="start">Standard path</text>
+<rect x="96" y="1280" width="104" height="46" rx="6" fill="#eaf3ef" stroke="#eaf3ef" stroke-width="2"/>
+<text x="148" y="1310" font-family="Arial, sans-serif" font-size="22" font-weight="600" fill="#426f63" text-anchor="middle">PASS</text>
+<text x="219" y="1310" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#251f21" text-anchor="start">All six checks pass</text>
+<rect x="96" y="1344" width="104" height="46" rx="6" fill="#fff0f1" stroke="#fff0f1" stroke-width="2"/>
+<text x="148" y="1374" font-family="Arial, sans-serif" font-size="22" font-weight="600" fill="#d42d38" text-anchor="middle">FAIL</text>
+<text x="219" y="1374" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#251f21" text-anchor="start">One or more checks fail</text>
+<rect x="592" y="1220" width="536" height="222" rx="12" fill="white" stroke="#eae9ea" stroke-width="2"/>
+<text x="616" y="1257" font-family="Arial, sans-serif" font-size="25" font-weight="600" fill="#251f21" text-anchor="start">Emergency path</text>
+<rect x="616" y="1280" width="143" height="36" rx="5" fill="#fff0f1" stroke="#fff0f1" stroke-width="2"/>
+<text x="687" y="1305" font-family="Arial, sans-serif" font-size="17" font-weight="600" fill="#d42d38" text-anchor="middle">FAIL</text>
+<text x="775" y="1305" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#251f21" text-anchor="start">Bypass invalid, whatever the rules show</text>
+<rect x="616" y="1330" width="143" height="36" rx="5" fill="#eaf3ef" stroke="#eaf3ef" stroke-width="2"/>
+<text x="687" y="1355" font-family="Arial, sans-serif" font-size="17" font-weight="600" fill="#426f63" text-anchor="middle">PASS</text>
+<text x="775" y="1355" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#251f21" text-anchor="start">Bypass valid + all six checks pass</text>
+<rect x="616" y="1380" width="143" height="36" rx="5" fill="#f4efec" stroke="#f4efec" stroke-width="2"/>
+<text x="687" y="1405" font-family="Arial, sans-serif" font-size="17" font-weight="600" fill="#585254" text-anchor="middle">EXCEPTION</text>
+<text x="775" y="1405" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#251f21" text-anchor="start">Bypass valid + one or more checks fail</text>
+<path d="M315 1442 V1470 H1080 V1540" fill="none" stroke="#585254" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M885 1442 V1470" fill="none" stroke="#585254" stroke-width="2.5"/>
+<text x="72" y="1494" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#585254" text-anchor="start">Valid bypass: non-author approver + reason + post-review due date recorded;</text>
+<text x="72" y="1521" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#585254" text-anchor="start">post-review completed OR due date has not passed as of the report date.</text>
+<rect x="72" y="1544" width="1056" height="91" rx="12" fill="#faf9f8" stroke="#eae9ea" stroke-width="2"/>
+<text x="600" y="1582" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#251f21" text-anchor="middle">Per-change report: verdict + R1-R6 evidence + bypass note</text>
+<text x="600" y="1614" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#585254" text-anchor="middle">Text or JSON  |  Exit 0: no FAIL  |  Exit 1: any FAIL</text>
+<text x="72" y="1678" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#585254" text-anchor="start">Reads files only. PASS means recorded evidence meets the rules, not that a change is safe.</text>
+<path d="M72 1697 H1128" fill="none" stroke="#eae9ea" stroke-width="2.5"/>
+<text x="72" y="1724" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#251f21" text-anchor="start">AIArchLab</text>
+<text x="1128" y="1724" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#585254" text-anchor="end">v0.3.1 rules.py  /  03 Oct 2026</text>
+</svg>
