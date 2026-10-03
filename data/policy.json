@@ -1,0 +1,6 @@
+{
+  "protected_branch": "main",
+  "required_checks": ["unit-tests", "static-analysis"],
+  "sensitive_paths": ["infra/", "deploy/"],
+  "code_owners": ["lin", "omar"]
+}
